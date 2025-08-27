@@ -1,3 +1,8 @@
+'''
+List have the features like Ordered, Indexed, Mutable, Duplicates Allowed, 
+Heterogeneous Elements, Use Case(Ordered collection of items, frequently changed)
+'''
+
 # Create python List
 a = ["apple", "grapes", "mango"]
 print(a)

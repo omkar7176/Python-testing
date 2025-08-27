@@ -1,12 +1,16 @@
 # List Methods:
 '''
-append(x) ---> Add item x to the end of the list
-extend(iter) ---> Extend list by appending elements from iterable
-insert(i, x) ---> Insert item x at index i
-remove(x) ---> Remove first occurrence of value x
-pop([i]) ---> Remove and return item at index i (default: last)
-sort() ---> Sort the list in-place
-reverse() ---> Reverse the list in-place
+append(x) 
+extend(iter)
+insert(i, x)
+remove(x)
+pop([i]) 
+sort() 
+reverse()
+clear()
+copy()
+count()
+index()
 '''
 # append() - it will add only 1 value, only 1 arguments for append.
 fruit = ["Mango", "Guava"]
