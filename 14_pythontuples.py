@@ -3,6 +3,9 @@ Tuple: Tuple is immutable in nature so by default tuple have less methods
 like count() and index().
 But you can convert tuple into list and apply the list methods to tuple as well, and
 then again covert it into tuple.
+
+Ordered✅ || Indexed✅ || Duplicates Allowed✅ ||
+Heterogeneous Elements ✅ || Mutable❌
 '''
 a = ("cherry", "grapes", "mango")
 print(a)
