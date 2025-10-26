@@ -1,6 +1,6 @@
 '''
-Dictionary: Ordered✅ || Indexed✅ || Mutable✅ || Heterogeneous Elements ✅ ||
-            Duplicates Allowed❌(keys must be unique)
+Dictionary: Ordered✅ || Mutable✅ || Heterogeneous Elements ✅ ||
+            Duplicates Allowed❌(keys must be unique), Indexed ❌ 
            : we store the items in dict in key:value pairs.
            : make sure keys must be unique, values can duplicates. 
 '''
