@@ -60,12 +60,14 @@ fruit = ("mango", "grapes", "watermelon", "cherry", "orange", "kiwi", "chiku", "
 if "Omkar" in fruit:
     print("Yes, 'Omkar' is present.")
 
-# Very Important - Changing the value of tuples, it replace the value.
+# Very Important - Changing the value of tuples replaces the value.
 fruits = ("mango", "grapes", "watermelon", "cherry", "orange", "kiwi", "chiku", "jackfruit", "apple", "Omkar")
 print(type(fruits))
+
 y = list(fruits)
 print(type(y))
 y[1] = "Python"
+
 fruits = tuple(y)
 print(fruits)
 print(type(fruits))
@@ -73,8 +75,10 @@ print(type(fruits))
 # Add items in tuple (Very Important) using append() method, it attach the value
 fruits = ("mango", "grapes", "watermelon", "cherry", "orange", "kiwi", "chiku", "jackfruit")
 print(type(fruits))
+
 a = list(fruits)
 print(type(a))
+
 a.append("Apple")
 fruits = tuple(a)
 print(fruits)
@@ -90,9 +94,11 @@ print(a)
 # Removing items from a tuple
 fruits = ("mango", "grapes", "watermelon", "cherry", "orange", "kiwi", "chiku", "jackfruit")
 print(type(fruits))
+
 a = list(fruits)
 print(type(a))
 a.remove("mango")
+
 fruits = tuple(a)
 print(fruits)
 print(type(fruits))
@@ -101,7 +107,7 @@ print(type(fruits))
 fruits = ("mango", "grapes", "watermelon", "cherry", "orange", "kiwi", "chiku")
 del fruits
 
-# Packing a tuple (when we assign a values to tuple)
+# Packing a tuple (when we assign values to a tuple)
 a = ("omkar", "rahul", "shubh")
 
 # Unpacking the tuple (when we extract the value from the tuple)
