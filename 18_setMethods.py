@@ -84,7 +84,7 @@ set7 = {"black", "yellow", "white", "purple", "grey"}
 set6.symmetric_difference_update(set7)
 print(set6)
 
-# symmetric_difference() method will return a new set that contain only the elements that contain only the elements that are NOT present in Both sets. --> same as symmetric_difference_update().
+# The symmetric_difference() method returns a new set containing only the elements that are not present in both sets. → Unlike symmetric_difference_update(), it does not modify the original set.
 setold = {"white", "black", "yellow", "green", "blue"}
 setnew = {"black", "yellow", "white", "purple", "grey"}
 set = setold.symmetric_difference(setnew) # need to create 3rd variable
